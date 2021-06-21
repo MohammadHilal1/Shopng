@@ -59,7 +59,7 @@ class SignIn extends React.Component{
                     handleChange={this.handleChange}
                     label='password'/>
 
-                    <div className='button'>
+                    <div className='buttons'>
                     <CustomButton type='submit'> Sign in</CustomButton>
                     <CustomButton type='button' onClick={signInWithGoogle} isGoogleSignIn> Sign in with Google</CustomButton>
                     </div>
